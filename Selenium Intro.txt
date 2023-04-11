@@ -1,0 +1,77 @@
+Functional Testing ---> A behaviour of application whether it is behaving according to customer needs or not
+like Buttons, links these comes under functional testing
+
+Re-Testing Testing ---> We need to execute the same test case again and again with multiple sets of data
+Re-Regression Testing --->  For every version of the build we will test the defects that reported earlier so that it should not imapct other functionality.
+
+Therefore, Automation solves the re-testing and regression testin gprobelm\
+
+---------------------------
+Automation Tools:- a. Functional Testing Tools ---> QTP/UFT, Selenium 
+                   b. Performace Testing Tools ---> JMeter, LoadRunner
+				   c. Test Management Tools ---->  Used to maintain test cases and defect reporting , execution status and report generation 
+													eg. Quality Center, MS VSTP
+				   d. Defect Reporting Tools ---> BugZilla, Remedy, Devrack
+				   
+				   JIRA---> used for Test management, defect management, Dashboards(Overall test cases oerview)
+				   
+
+-----------------------------				  
+Advantages of Selenium :- a. Open Source Tool
+						  b. It supports multiple languages ( Java, python, C#, Ruby)
+						  c. Multiple Operating System
+						  d. It supports Multiple Browsers(Cross- Browser Testing)
+						  e. It supports Parallel Testing
+						  f. It can integrate third party tools eg- TestNG, Cucumber, Maven, Jenkins. Git & Git Hub
+-----------------------------	
+What is Parallel Testing ?
+
+The process of testing multiple applications or components of the application concurrently, to reduce the test time						  
+
+-------------------------------
+Disadvantages oif Selenium :- a. Selnium is used only for Web based application testing, it dosen't support desktop application i.e window based apps like MS-Office, notepad, calculator.---> we can use AutoIT, Sikuli for desktop based apps testing 
+							  b. Selenium does not have any dedicated support or team issues realting to selenium software.---> Forums available online
+							  c. No reporting facility(i.e- deatiled testing report like no of test case passed, failed etc)----> TestNG, Extents used 
+							  d. It does not support images/graphs testingm. ---> Only a certain level of images can be verified.
+All these limitations can be overcome using third party applications.
+
+------------------------------------
+
+Selenium ----> Selenium is a set of components/tools 
+In other words Selenium is a suite which contains multiple components/tools
+
+Selenium Suite components
+-------------------------------
+1) Selenium IDE
+2) Selenium RC
+3) Selenium webdriver
+4) Selenium Grid
+
+Selenium 1 ---> IDE, RC, Grid
+Selenium 2----> IDE, WebDriver, Grid
+Selenium 3-----> WebDriver, Grid
+
+
+IDE ----->Plugin for firefox browser, record and play back tool 
+RC --->RC server will interact with the browser and execute Automating Test Cases-- Automating test cases (As it was indirect process and if more test cases are there the process is slow)
+WebDriver ---> WebDriver is an API which will automate your test cases
+Grid ---> You can execute test cases remotly.
+
+
+
+Topics
+----------
+Java
+WebDriver
+AutoIT
+TestNG
+Frameworks
+CI
+Maven
+Jenkins
+Git & Github
+Cucumber
+
+
+
+
